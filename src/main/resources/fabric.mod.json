@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "objectiveoptimization",
+  "version": "${version}",
+
+  "name": "Objective Optimization",
+  "description": "Objective Optimization is a mod that allows for optimizing the vanilla game flow, without breaking too many aspects of it!",
+  "authors": [
+    "Pancake"
+  ],
+  "contact": {
+    "homepage": "https://mgnet.work/objectiveoptimization",
+    "sources": "https://github.com/MCPfannkuchenYT/ObjectiveOptimization"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.pfannekuchen.objectiveoptimization.ObjectiveOptimization"
+    ]
+  },
+  "mixins": [
+    "objectiveoptimization.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
